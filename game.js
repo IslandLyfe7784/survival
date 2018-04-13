@@ -5,19 +5,20 @@ var counter = 5
 
 initializePage()
 
-if (livesArray.length != counter) {
+if (livesArray.length !== counter) {
   livesArea.removeChild(list.childNode[0])
 }
 
 // loseLifeButton.addEventListener("click", loseHeart)
 
 function initializePage(){
-  for (var i = 0; i < 5; i++) {
-    let img = createNode("img")
+  for (let i = 0; i < 5; i++) {
+    let div = createNode("div")
 
-    img.innerHTML = "<img src=../Assets/pixel-heart.png alt=heart>"
-    livesArray.push(img)
-    append(livesArea, img)
+    div.innerHTML = "<img src=../Assets/pixel-heart.png alt=heart>"
+    livesArray.push(div)
+    div.className = "hearts"
+    append(livesArea, div)
   }
 }
 
