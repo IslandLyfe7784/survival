@@ -7,12 +7,12 @@ html, body{
 
 header {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 10p  x;
 }
 
 /* Start Page */
 .hero-image{
-    background-image: url("")
+    background-image: url("https://wallpapertag.com/island-background-pictures")
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
