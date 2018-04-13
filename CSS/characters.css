@@ -10,6 +10,16 @@ body {
     justify-content: space-around;
 }
 
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;  
+}
+
 .left {
     display: flex;
     flex-direction: column;
@@ -44,7 +54,7 @@ header p {
     justify-content: flex-end;
     width: 45%;
     margin-right: -2vw;
-    padding-bottom: 17vw;
+    padding-bottom: 13vw;
 }
 
 .background {
@@ -64,9 +74,10 @@ header p {
 
 
 button {
+    background-color: lightgray;
     border: 1px solid black;
     border-radius: 10px;
-    width: 22vw;
-    height: 5vw;
+    width: 20vw;
+    height: 50px;
     margin: 0 12vw;
 }
