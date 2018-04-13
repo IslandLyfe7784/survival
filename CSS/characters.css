@@ -7,6 +7,8 @@ html, body{
 
 body {
     background-image: url("../Assets/start-page-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: lightblue;
     display: flex;
     justify-content: space-around;
@@ -19,7 +21,7 @@ h1 {
 
 p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1em;  
+  font-size: 1em;
 }
 
 .left {
@@ -39,13 +41,13 @@ header {
 }
 
 header h1 {
- 
+
     margin: 1vw;
 }
 
 header p {
     margin: 1vw;
-  
+
 }
 
 .character-img img {
@@ -63,7 +65,7 @@ header p {
     padding-bottom: 13vw;
 }
 
-.background { 
+.background {
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
