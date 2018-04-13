@@ -31,6 +31,7 @@ function append(parent, element){
 }
 
 function loseHeart(){
+  livesArray.pop()
   counter -= 1
   return counter
 }
