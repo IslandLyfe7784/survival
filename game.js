@@ -6,7 +6,7 @@ var counter = 5
 initializePage()
 
 if (livesArray.length !== counter) {
-  livesArea.removeChild(list.childNode[0])
+  livesArea.removeChild(list.childNode[livesArray.length - 1])
 }
 
 // loseLifeButton.addEventListener("click", loseHeart)
