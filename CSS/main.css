@@ -6,7 +6,7 @@ html, body{
 }
 /* Start Page */
 .hero-image{
-    background-image: url("")
+    background-image: url("");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;

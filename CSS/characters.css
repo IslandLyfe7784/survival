@@ -5,58 +5,68 @@ html, body{
     margin: 0;
 }
 
-/* Top section */
-
-.top {
+body {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+    margin-left: -2vw;
 }
 
 header {
     float: left;
     border: 1px solid black;
     border-radius: 10px;
+    width: auto;
 }
 
-.story p {
-    float: right;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 50vw;
+header h1 {
+    margin: 1vw;
 }
 
-/* Middle Section */
- .middle {
-     display: flex;
-     justify-content: space-between;
- }
-
-.lives {
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 20vw;
+header p {
+    margin: 1vw;
 }
 
-
-.stats {
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 50vw;
+.character-img img {
+    height: 45vw;
+    width: auto;
 }
 
-/* Bottom Section */
-
-.bottom {
+.right {
     display: flex;
-    justify-content: space-between;
-}
-.options {
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 50vw;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 45%;
+    margin-right: -2vw;
+    padding-bottom: 17vw;
 }
 
-.satchel{
-    height: 50px;
-    width: 50px;
+.background {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 13vw;
+    width: auto;
+}
+
+.background h1 {
+    margin: 1vw;
+}
+
+.background p {
+    margin: 1vw;
+}
+
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 22vw;
+    height: 5vw;
+    margin: 0 12vw;
 }
