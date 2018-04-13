@@ -1,3 +1,4 @@
+/* Global Styles */
 html, body{
     height: 100%;
     width: 100%;
@@ -8,3 +9,28 @@ header {
     border: 1px solid black;
     border-radius: 10px;
 }
+
+/* Start Page */
+.hero-image{
+    background-image: url("")
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+ 
+
+
