@@ -1,23 +1,24 @@
-const lives = document.querySelector("#lives")
-const loseLifeButton = document.querySelector("")
+const livesArea = document.querySelector(".lives")
+// const loseLifeButton = document.querySelector("")
 var livesArray =[]
 var counter = 5
 
 initializePage()
 
-loseLifeButton.addEventListener("click", loseHeart)
-
-if (livesArray.length != counter) {
-  livesDiv.removeChild(list.childNode[0])
+if (livesArray.length !== counter) {
+  livesArea.removeChild(list.childNode[0])
 }
 
+// loseLifeButton.addEventListener("click", loseHeart)
+
 function initializePage(){
-  for (var i = 0; i < 5; i++) {
-    let img = createNode(img)
+  for (let i = 0; i < 5; i++) {
+    let div = createNode("div")
 
-    img.src = ./Assets/pixel-heart.png
-
-    append(lives, img)
+    div.innerHTML = "<img src=../Assets/pixel-heart.png alt=heart>"
+    livesArray.push(div)
+    div.className = "hearts"
+    append(livesArea, div)
   }
 }
 
@@ -28,6 +29,7 @@ function createNode(element){
 function append(parent, element){
   return parent.appendChild(element)
 }
+
 function loseHeart(){
   counter -= 1
   return counter
