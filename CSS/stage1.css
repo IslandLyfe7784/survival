@@ -66,6 +66,9 @@ html, body{
 }
 
 .backdrop{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 70vh;
   width: 100vw;
   opacity: .5;
