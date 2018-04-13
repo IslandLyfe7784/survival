@@ -3,39 +3,73 @@ html, body{
     height: 100%;
     width: 100%;
     margin: 0;
+    background-color: #8DD2A6;
 }
 
-header {
-    float: left;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.story p {
-    float: right;
-    border: 1px solid black;
+.story{
+    border: 5px solid black;
     border-radius: 10px;
     width: 50vw;
+    height: 31.5vh;
 }
 
 .lives {
-    float: left;
-    border: 1px solid black;
+    border: 5px solid black;
     border-radius: 10px;
     width: 20vw;
 }
 
 
 .stats {
-    float: right;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
     border-radius: 10px;
-    width: 50vw;
+    width: 20vw;
+    height:33vh;
 }
 
 .options {
-    float: left;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
     border-radius: 10px;
     width: 50vw;
+    height: 33vh;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 33vh;
+  width: 100vw;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  height:33vh;
+  width: 100vw;
+}
+
+.satchel{
+  display: flex;
+  justify-content: space-between;
+  height: 33vh;
+  width: 20vw;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.backdrop{
+  height: 70vh;
+  width: 100vw;
+  background-image: url(http://www.docastaway.com/pages/images/pictures/paradise/southeast-asia/siroktabe/jungle-picture-desert-island/!);
+  opacity: .5;
+}
+
+button{
+  height: 50%;
 }
