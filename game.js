@@ -1,6 +1,5 @@
 const lives = document.querySelector("#lives")
 const loseLifeButton = document.querySelector("")
-const livesDiv = document.querySelector("")
 var livesArray =[]
 var counter = 5
 
@@ -21,7 +20,6 @@ function initializePage(){
 
     append(lives, img)
   }
-
 }
 
 function createNode(element){
