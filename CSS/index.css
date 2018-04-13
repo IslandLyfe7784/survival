@@ -1,0 +1,25 @@
+.characters {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.char-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border:1px solid black;
+  flex: 2;
+  justify-content: space-around;
+}
+
+.char-container p {
+  font-size: 40px;
+}
+
+.char-container img {
+  height: 450px;
+  width: 400px;
+}
