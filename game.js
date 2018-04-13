@@ -1,15 +1,10 @@
 const livesArea = document.querySelector(".lives")
-// const loseLifeButton = document.querySelector("")
+const loseLifeButton = document.querySelector(".dead")
 var livesArray =[]
 var counter = 5
-
 initializePage()
 
-if (livesArray.length !== counter) {
-  livesArea.removeChild(list.childNode[livesArray.length - 1])
-}
-
-// loseLifeButton.addEventListener("click", loseHeart)
+loseLifeButton.addEventListener("click", loseHeart)
 
 function initializePage(){
   for (let i = 0; i < 5; i++) {
@@ -33,5 +28,6 @@ function append(parent, element){
 function loseHeart(){
   livesArray.pop()
   counter -= 1
+  livesArea.removeChild(livesArea.childNodes[livesArray.length - 1])
   return counter
 }
