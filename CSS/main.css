@@ -5,9 +5,24 @@ html, body{
     margin: 0;
 }
 /* Start Page */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;  
+}
+
+
 .hero-image{
-    background-image: url("https://wallpapertag.com/island-background-pictures");
-    height: 50%;
+    background-image: url("../Assets/start-page-background.jpg");
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,4 +36,10 @@ html, body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 4vw;
+    width: 7vw;
 }
