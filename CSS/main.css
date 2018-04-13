@@ -4,12 +4,6 @@ html, body{
     width: 100%;
     margin: 0;
 }
-
-header {
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
 /* Start Page */
 .hero-image{
     background-image: url("")
@@ -28,9 +22,3 @@ header {
     transform: translate(-50%, -50%);
     color: white;
 }
-
-
-
- 
-
-
