@@ -5,10 +5,6 @@ html, body{
     margin: 0;
 }
 
-header {
-    border: 1px solid black;
-    border-radius: 10px;
-}
 
 /* Start Page */
 .hero-image{
@@ -28,9 +24,3 @@ header {
     transform: translate(-50%, -50%);
     color: white;
 }
-
-
-
- 
-
-

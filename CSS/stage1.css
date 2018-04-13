@@ -5,13 +5,6 @@ html, body{
     margin: 0;
 }
 
-/* Top section */
-
-.top {
-    display: flex;
-    justify-content: space-between;
-}
-
 header {
     float: left;
     border: 1px solid black;
@@ -25,13 +18,8 @@ header {
     width: 50vw;
 }
 
-/* Middle Section */
- .middle {
-     display: flex;
-     justify-content: space-between;
- }
-
 .lives {
+    float: left;
     border: 1px solid black;
     border-radius: 10px;
     width: 20vw;
@@ -39,24 +27,15 @@ header {
 
 
 .stats {
+    float: right;
     border: 1px solid black;
     border-radius: 10px;
     width: 50vw;
 }
 
-/* Bottom Section */
-
-.bottom {
-    display: flex;
-    justify-content: space-between;
-}
 .options {
+    float: left;
     border: 1px solid black;
     border-radius: 10px;
     width: 50vw;
-}
-
-.satchel{
-    height: 50px;
-    width: 50px;
 }
