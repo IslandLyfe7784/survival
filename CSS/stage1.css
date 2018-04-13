@@ -9,14 +9,16 @@ html, body{
 .story{
     border: 5px solid black;
     border-radius: 10px;
-    width: 50vw;
-    height: 31.5vh;
+    width: 66vw;
 }
 
 .lives {
+    display: flex;
+    justify-content: space-between;
     border: 5px solid black;
     border-radius: 10px;
-    width: 20vw;
+    width: 30vw;
+    height: 10vh;
 }
 
 
@@ -68,6 +70,11 @@ html, body{
   width: 100vw;
   background-image: url(http://www.docastaway.com/pages/images/pictures/paradise/southeast-asia/siroktabe/jungle-picture-desert-island/!);
   opacity: .5;
+}
+
+.hearts img{
+  height: 70px;
+  width: 70px;
 }
 
 button{
