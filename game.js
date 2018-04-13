@@ -3,7 +3,6 @@ const loseLifeButton = document.querySelector("")
 var livesArray =[]
 var counter = 5
 
-
 initializePage()
 
 loseLifeButton.addEventListener("click", loseHeart)
@@ -16,7 +15,7 @@ function initializePage(){
   for (var i = 0; i < 5; i++) {
     let img = createNode(img)
 
-    img.src =
+    img.src = ./Assets/pixel-heart.png
 
     append(lives, img)
   }
