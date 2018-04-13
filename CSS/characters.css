@@ -6,6 +6,8 @@ html, body{
 }
 
 body {
+    background-image: url("../Assets/start-page-background.jpg");
+    background-color: lightblue;
     display: flex;
     justify-content: space-around;
 }
@@ -29,6 +31,7 @@ p {
 }
 
 header {
+    background-color: white;
     float: left;
     border: 1px solid black;
     border-radius: 10px;
@@ -36,16 +39,19 @@ header {
 }
 
 header h1 {
+ 
     margin: 1vw;
 }
 
 header p {
     margin: 1vw;
+  
 }
 
 .character-img img {
-    height: 45vw;
+    height: 40vw;
     width: auto;
+    margin-top: 2vw;
 }
 
 .right {
@@ -57,7 +63,8 @@ header p {
     padding-bottom: 13vw;
 }
 
-.background {
+.background { 
+    background-color: white;
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 13vw;
